@@ -37,17 +37,18 @@ stop_words = set(stopwords.words("english"))
 # ----------------------------------
 # TEXT PREPROCESSING FUNCTION
 # ----------------------------------
+
 def preprocess(text):
     text = text.lower()
-    text = re.sub(r"<.*?>", "", text)          # remove HTML tags
-    text = re.sub(r"[^a-z\s]", "", text)       # remove punctuation & numbers
+    text = re.sub(r"<.*?>", "", text)
+    text = re.sub(r"[^a-z\s]", "", text)
 
-    tokens = word_tokenize(text)
+    tokens = text.split()
 
     processed_words = [
         stemmer.stem(word)
         for word in tokens
-        if word.isalpha() and word not in stop_words
+        if word not in stop_words
     ]
 
     return " ".join(processed_words)
