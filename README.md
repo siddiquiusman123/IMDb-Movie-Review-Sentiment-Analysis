@@ -27,7 +27,7 @@ The application is deployed using **Streamlit**, allowing users to input reviews
 
 ## 🌐 Live Demo
 🔗 Click here to try the app  
-👉 *https://imdb-movie-review-sentiment-analysis-8urzbzkgrrmqmstn2hiumt.streamlit.app/*
+👉 [IMDb Movie Review Sentiment Analysis App](https://imdb-movie-review-sentiment-analysis-8urzbzkgrrmqmstn2hiumt.streamlit.app/)
 
 ---
 
