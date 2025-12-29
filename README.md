@@ -32,10 +32,10 @@ The application is deployed using **Streamlit**, allowing users to input reviews
 ---
 
 ## 📊 Results & Performance
-- Achieved strong accuracy using **TF-IDF + Logistic Regression / Linear SVM**
+- Achieved strong accuracy using **TF-IDF + Logistic Regression**
 - Performs well on negation-based reviews such as *“not good”* and *“not bad”*
 - Tested on realistic IMDb-style movie reviews
-- Successfully deployed on **Streamlit Cloud / HuggingFace Spaces**
+- Successfully deployed on **Streamlit Cloud**
 
 ---
 
